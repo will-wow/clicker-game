@@ -1,0 +1,12 @@
+.ClickerGame {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 500px;
+
+  button {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+}

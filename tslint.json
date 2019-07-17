@@ -1,7 +1,10 @@
 {
   "rules": {
     "member-access": [true, "no-public"],
-    "ordered-imports": false
+    "ordered-imports": false,
+    "interface-name": false,
+    "curly": false,
+    "jsx-no-lambda": false
   },
   "extends": ["tslint-react", "tslint:recommended", "tslint-config-prettier"],
   "linterOptions": {
